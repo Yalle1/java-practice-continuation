@@ -1,6 +1,7 @@
 package org.example;
 
-public interface Calculate {
+@FunctionalInterface
+public interface Calculate<T> {
 
     void calculate(int a, int b);
 }

@@ -6,7 +6,7 @@ public class Calculator {
         System.out.println("Sum: "+x+y);
     }
 
-    public static void findMultipliedSum(int x, int y){
+    public void findMultipliedSum(int x, int y){
         System.out.println("Sum: "+(x*y));
     }
 }
