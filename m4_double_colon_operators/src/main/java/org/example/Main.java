@@ -3,6 +3,7 @@ package org.example;
 import lombok.ToString;
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -38,7 +39,13 @@ public class Main {
 
         BiFunction<MyClass,Integer,Double> b2 = MyClass::method;
 
+        System.out.println("----------------------------");
 
+        Consumer<Integer> display1 = i -> System.out.println(i);
+        Consumer<Integer> display2 = System.out::println;
+
+        display1.accept(20);
+        display2.accept(10);
 
     }
 }
