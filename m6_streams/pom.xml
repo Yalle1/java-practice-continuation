@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>m4_double_colon_operators</artifactId>
+  <artifactId>m6_streams</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>m4_double_colon_operators</name>
+  <name>m6_streams</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -27,16 +27,4 @@
       <version>1.18.24</version>
     </dependency>
   </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>11</source>
-          <target>11</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 </project>
