@@ -1,11 +1,11 @@
-package org.example;
+package org.example.StreamPractice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StreamPractice {
+public class DistinctMethod {
 
     public static void main(String[] args) {
 
