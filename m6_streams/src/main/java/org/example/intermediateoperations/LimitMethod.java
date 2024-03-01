@@ -1,4 +1,4 @@
-package org.example.StreamPractice;
+package org.example.intermediateoperations;
 
 import java.util.ArrayList;
 import java.util.Arrays;
