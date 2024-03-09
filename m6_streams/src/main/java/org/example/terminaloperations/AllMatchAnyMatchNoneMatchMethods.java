@@ -6,7 +6,7 @@ public class AllMatchAnyMatchNoneMatchMethods {
 
     public static void main(String[] args) {
 
-        //allMatch(Predicate): checks ifa ll the elements in the stream matches with the specified predicate
+        //allMatch(Predicate): checks if all the elements in the stream matches with the specified predicate
         int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
         boolean b1 = Arrays.stream(arr1).allMatch(p -> p < 10);
